@@ -12,12 +12,15 @@ A complex ReactJS app to create user/admin
 - Pricing Page
 
 
-### Primary Components
+### Main Dependencies
 
 - React 
 - React-Router
 - Redux
 - React-Bootstrap 
+- Redux-Form
+- Redux-Promise-Middleware
+- Mobx
 
 Check package.json for the full list
 
@@ -44,7 +47,7 @@ and make sure it has this the port :3000 authorized for CORS
 The app requires JWT for user to login. The API must provide that 
 when user logs in.
 
-[more docs coming]
+[more in construction... ]
 
 
 
