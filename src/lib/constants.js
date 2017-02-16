@@ -1,0 +1,42 @@
+
+
+const API_ENDPOINT = ["localhost", "127.0.0.1"].includes(window.location.hostname) ? "http://localhost:5005" : "http://yourwebsite.com"
+
+export default {
+    SERVICE_URL: API_ENDPOINT + "/svc/spa",
+    SERVICE_URL_ORIGIN: "spa",
+
+    FETCH_API_KEYS: "FETCH_API_KEYS",
+    FETCH_API_KEYS_ENDPOINT: "api-keys",
+
+    UPDATE_API_KEY: "UPDATE_API_KEY",
+    UPDATE_API_KEY_ENDPOINT: "api-keys",
+
+    VERIFY_LOGIN: "VERIFY_LOGIN",
+    LOGIN: "LOGIN",
+    LOGOUT: "LOGOUT",
+    SIGNUP: "SIGNUP",
+
+    ACCOUNT_INFO: "ACCOUNT_INFO",
+    ACCOUNT_INFO_ENDPOINT: "account",
+
+    FETCH_DATA_COUNT: "FECTH_DATA_COUNT",
+    FETCH_DATA_COUNT_ENDPOINT: "data-count",
+
+    FETCH_DATA_POLICIES: "FECTH_DATA_POLICIES",
+    FETCH_DATA_POLICIES_ENDPOINT: "policies",
+
+    FETCH_LATEST_PACKAGE_INFO: "FETCH_LATEST_PACKAGE_INFO",
+    FETCH_LATEST_PACKAGE_INFO_ENDPOINT: "packages",
+
+    LOGIN_USER: "LOGIN_USER",
+    LOGIN_USER_ENDPOINT: "login",
+
+    REGISTER_USER: "REGISTER_USER",
+    REGISTER_USER_ENDPOINT: "register",
+
+    LOST_PASSWORD: "LOST_PASSWORD",
+    LOST_PASSWORD_ENDPOINT: "lost-password",
+
+    LOGOUT_USER: "LOGOUT_USER"
+}
